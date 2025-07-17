@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* common Style */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .work-sans-fonts {
   font-family: "Work Sans", sans-serif;
@@ -9,13 +7,41 @@
   font-style: normal;
 }
 
-.display-flex{
-    display: flex;
+/* Shared Styles */
+.display-flex {
+  display: flex;
 }
 
+.text-gray {
+  color: #424242;
+}
 
-/* Navbar Style */
-.nav-list{
-    list-style: none;
-    display: flex;
+.text-light-gray {
+  color: #727272;
+}
+
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header style */
+
+/* nav bar related style */
+
+.nav-items {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
 }
